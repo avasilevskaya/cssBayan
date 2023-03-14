@@ -1,0 +1,41 @@
+body {
+  background: #f4eed9;
+  font-family: Arial;
+}
+
+header > div {
+  color: crimson;
+}
+
+h1 {
+  font-size: 5vw;
+}
+
+.slides-wrapper {
+  display: flex;
+  justify-content: center;
+}
+
+.slides {
+  width: 70vw;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.slide {
+  padding: 10px;
+  border-top: 5px solid #b2afa8;
+}
+
+img {
+  width: 600px;
+  display: block;
+  margin: 20px auto;
+}
+
+label {
+  display: block;
+  font-size: 3vw;
+  font-weight: bold;
+}
